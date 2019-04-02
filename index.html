@@ -1,39 +1,62 @@
+<!-- <!DOCTYPE html>-->
+<!--<html lang="en">-->
+
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--    <title>Wikepedia API</title>-->
+<!--    <link rel="stylesheet" href="styles.css" type="text/css" />-->
+<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    
+<!--</head>-->
+
+<!--<body>-->
+
+<!--    <h1> Explore Your Mind </h1>-->
+<!--    <br>-->
+<!--    <div>-->
+<!--        <img id="image" src="http://www.fuzzworks.co.uk/wp-content/uploads/2015/06/fateofabrain_explore.jpg" alt="wikepedia" id="center"></img>-->
+<!--    </div>-->
+<!--    <br>-->
+
+
+
+<!--    <div>-->
+<!--        <input type="text" placeholder="Search" name="wiki" id="wiki">-->
+<!--        <button id="button" onclick = "handleSubmit()">Search Wikepedia</button>-->
+        
+<!--        <script type="text/javascript" src="script.js"></script>-->
+<!--    </div>-->
+
+
+<!--<p id = "results"> </p>-->
+
+
+<!--</body>-->
+
+<!--</html> -->
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Wikepedia API</title>
-    <link rel="stylesheet" href="styles.css" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script type="text/javascript" src="script.js"></script>
+    
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Wikipedia</title>
 </head>
-
 <body>
-
-    <h1 id=> Explore Your Mind </h1>
-    <br>
-    <div>
-        <img id="image" src="http://www.fuzzworks.co.uk/wp-content/uploads/2015/06/fateofabrain_explore.jpg" alt="wikepedia" id="center"></img>
-    </div>
-    <br>
-    <form id="search" action="" method="get">
-
-
-        <br>
-        <label for=""><b></b></label>
-        <input type="text" placeholder="Search" name="wiki" id="search">
-
-        <br>
-        <button id="button" type="submit">Search Wikepedia</button>
-        <br>
-
-
-    </form>
-
-
+    <div id="centered">
+        <h2 id="title">Wikipedia</h2>
+        <div>
+        <input type="text" id="searchField" name="searchField"/>
+        <button id="searchButton" onclick="handleSubmit()">Search</button>
+        </div>
+<script type="text/javascript" src="script.js"></script>
 </body>
+
+<p id="results"></p>
 
 </html>

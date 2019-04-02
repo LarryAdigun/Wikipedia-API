@@ -27,11 +27,15 @@ h1 {
   text-align: center
 }
 
-#search {
+#wiki {
   padding: 10px;
   font-size: 17px;
   border: 1px solid grey;
   float: left;
   width: 80%;
   background: #f1f1f1;
+}
+
+#id {
+  color: red;
 }
